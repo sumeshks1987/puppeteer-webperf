@@ -7,7 +7,7 @@ const puppeteer = require('puppeteer');
   // Gather coverage for JS and CSS files
   await Promise.all([page.coverage.startJSCoverage(), page.coverage.startCSSCoverage()]);
 
-  await page.goto('https://pptr.dev');
+  await page.goto('https://www.hertz.ae/');
 
   // Stops the coverage gathering
   const [jsCoverage, cssCoverage] = await Promise.all([

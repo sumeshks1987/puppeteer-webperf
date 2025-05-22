@@ -16,7 +16,7 @@
     "lint": "eslint . --fix"
   },
   "dependencies": {
-    "lighthouse": "^6.0.0",
+    "lighthouse": "^12.6.0",
     "puppeteer": "^3.0.1"
   }
 }
